@@ -1,0 +1,154 @@
+l<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumen Pal - Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">SOUMEN <span>PAL</span></div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-img-container">
+                <img id="profile-photo" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Soumen Pal">
+            </div>
+            <h1>SOUMEN PAL</h1>
+            <p>Web Developer & Digital Designer</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+            
+            <div class="upload-container">
+                <label for="photo-upload" class="upload-btn">
+                    <i class="fas fa-camera"></i> Upload Photo
+                </label>
+                <input type="file" id="photo-upload" accept="image/*">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" id="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Soumen Pal, a passionate web developer and designer with over 5 years of experience creating digital experiences. I specialize in building responsive, user-friendly websites and applications with modern technologies.</p>
+                    <p>My expertise includes front-end development, UI/UX design, and creating interactive web applications. I'm constantly learning and adapting to new technologies to deliver cutting-edge solutions.</p>
+                    
+                    <div class="skills-container" id="skills-container">
+                        <div class="skill" style="transition-delay: 0.1s">HTML5</div>
+                        <div class="skill" style="transition-delay: 0.2s">CSS3</div>
+                        <div class="skill" style="transition-delay: 0.3s">JavaScript</div>
+                        <div class="skill" style="transition-delay: 0.4s">React</div>
+                        <div class="skill" style="transition-delay: 0.5s">UI/UX Design</div>
+                        <div class="skill" style="transition-delay: 0.6s">Responsive Design</div>
+                        <div class="skill" style="transition-delay: 0.7s">Animation</div>
+                        <div class="skill" style="transition-delay: 0.8s">Web Performance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title" id="portfolio-title">My Portfolio</h2>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <div class="portfolio-item" style="transition-delay: 0.1s">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A fully responsive e-commerce website with shopping cart and payment integration.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="transition-delay: 0.2s">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Corporate Dashboard</h3>
+                        <p>Interactive dashboard for business analytics with real-time data visualization.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="transition-delay: 0.3s">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Travel Blog</h3>
+                        <p>A visually appealing travel blog with interactive maps and photo galleries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">Get In Touch</h2>
+            <div class="contact-form">
+                <div class="form-group" style="transition-delay: 0.1s">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group" style="transition-delay: 0.2s">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group" style="transition-delay: 0.3s">
+                    <input type="text" class="form-control" placeholder="Subject" required>
+                </div>
+                <div class="form-group" style="transition-delay: 0.4s">
+                    <textarea class="form-control" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="form-group" style="transition-delay: 0.5s">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo" style="color: white">SOUMEN <span style="color: var(--accent-color)">PAL</span></div>
+            <p>Professional Web Developer & Designer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Soumen Pal. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
